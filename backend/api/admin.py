@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import *
 
-# Register your models here.
+admin.site.register(Halaqat)
+admin.site.register(Characteristic)
+admin.site.register(League)
+admin.site.register(QuranicClass)
