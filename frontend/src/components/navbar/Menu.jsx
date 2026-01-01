@@ -31,7 +31,7 @@ export default function Menu() {
       aria-labelledby="nested-list-subheader"
       subheader={
         <ListSubheader component="div" id="nested-list-subheader">
-          Qur'anic Classes
+          All Qarat Classes
         </ListSubheader>
       }
     >

@@ -33,7 +33,7 @@ export default function Navbar({content}) {
             </IconButton>
           <img width='100px'  src={logo} />
           <Typography variant="h5" noWrap component="div">
-            Qur'an Online Academy (QOA Asim) 
+            Qarat Online Academy (QOA Asim) 
           </Typography>
         </Toolbar>
       </AppBar>
