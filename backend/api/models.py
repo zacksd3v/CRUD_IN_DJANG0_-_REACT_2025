@@ -33,7 +33,7 @@ class QuranicClass(models.Model):
     city = models.CharField(max_length=100)
     halaqat = models.ForeignKey(Halaqat, on_delete=models.CASCADE)
     league = models.ForeignKey(League, on_delete=models.CASCADE)
-    created = models.ManyToManyField(Characteristic)
+    characteristic = models.ManyToManyField(Characteristic)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now_add=True)
 
