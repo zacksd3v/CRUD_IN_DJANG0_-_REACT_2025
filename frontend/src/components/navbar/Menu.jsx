@@ -31,7 +31,7 @@ export default function Menu() {
       aria-labelledby="nested-list-subheader"
       subheader={
         <ListSubheader component="div" id="nested-list-subheader">
-          Musaffa Classes
+          Qur'anic Classes
         </ListSubheader>
       }
     >
@@ -39,7 +39,7 @@ export default function Menu() {
         <ListItemIcon>
           <MosqueIcon />
         </ListItemIcon>
-        <ListItemText primary="All Mosques" />
+        <ListItemText primary="All Halaqat" />
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
@@ -48,21 +48,21 @@ export default function Menu() {
             <ListItemIcon>
               <BeenhereIcon />
             </ListItemIcon>
-            <ListItemText primary="Bilal ibn Rabah" />
+            <ListItemText primary="Hafsu An Aseem" />
           </ListItemButton>
 
           <ListItemButton sx={{ pl: 4 }}>
             <ListItemIcon>
               <BeenhereIcon />
             </ListItemIcon>
-            <ListItemText primary="Bani Commasie" />
+            <ListItemText primary="Khalaf An Hamza" />
           </ListItemButton>
 
           <ListItemButton sx={{ pl: 4 }}>
             <ListItemIcon>
               <BeenhereIcon />
             </ListItemIcon>
-            <ListItemText primary="G.R.A Mosque" />
+            <ListItemText primary="Mus'ab ibn Umair" />
           </ListItemButton>
 
         </List>
